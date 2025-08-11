@@ -3,6 +3,7 @@ from torch import nn
 from torchvision import models, transforms
 from PIL import Image
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 trained_model = None
 class_names = [
     'Fresh Banana', 'Fresh Lemon', 'Fresh Lulo', 'Fresh Mango', 
@@ -47,8 +48,8 @@ def predict(image_path):
     global trained_model
 
     if trained_model is None:
-        trained_model = FruitClassifierResNet()
-        trained_model.load_state_dict(torch.load("artifacts/saved_model.pth"))
+        trained_model = FruitClassifierResNet()               
+        trained_model.load_state_dict(torch.load("artifacts/saved_model.pth",  map_location=device))
         trained_model.eval()
 
     with torch.no_grad():

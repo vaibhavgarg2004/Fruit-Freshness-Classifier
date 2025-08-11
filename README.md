@@ -31,7 +31,7 @@ Watch the full project presentation here: **[Car Damage Detector Presentation](h
 ```
 Fruit_Freshness_Classifier/
 │
-├── model/
+├── artifacts/
 │   ├── saved_model.pth           # Trained ResNet50 model weights
 │
 ├── app.py                        # Streamlit application logic
