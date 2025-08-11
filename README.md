@@ -4,12 +4,12 @@ A smart and lightweight Streamlit-based web application that analyzes fruit imag
 
 ---
 
-<!-- ## 🌐 Live Website
-You can try the tool live here: **[Car Damage Detector](https://vaibhav-project-car-damage-detector.streamlit.app/)**
+## 🌐 Live Website
+You can try the tool live here: **[Fruit Freshness Classifier](https://vaibhav-project-fruit-freshness-classifier.streamlit.app/)**
 
 ---
 
-## 🎥 Presentation
+<!-- ## 🎥 Presentation
 Watch the full project presentation here: **[Car Damage Detector Presentation](https://vaibhav-projects.my.canva.site/car-damage-detector)**
 
 --- -->
@@ -78,11 +78,11 @@ Fruit_Freshness_Classifier/
 
 ---
    
-<!-- ## 🖼️ Application Snapshot
+## 🖼️ Application Snapshot
 
-![Application UI](car_damage_detector_ui.png)
+![Application UI](fruit_freshness_classifier_UI.png)
 
---- -->
+---
 
 ## 📄 License
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
