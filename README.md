@@ -9,10 +9,10 @@ You can try the tool live here: **[Fruit Freshness Classifier](https://vaibhav-p
 
 ---
 
-<!-- ## 🎥 Presentation
-Watch the full project presentation here: **[Car Damage Detector Presentation](https://vaibhav-projects.my.canva.site/car-damage-detector)**
+## 🎥 Presentation
+Watch the full project presentation here: **[Fruit Freshness Classifier](https://vaibhav-project.my.canva.site/fruit-freshness-classifier-presentation)**
 
---- -->
+---
 
 ## 🛠 Features  
 - Upload a fruit image and instantly get a freshness prediction.
